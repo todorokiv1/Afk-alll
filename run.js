@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   `);
 });
 
-exec('concurrently "node command.js" "node answer.js"', (error, stdout, stderr) => {
+exec('concurrently "node todoroki.js" "node sakura.js"', (error, stdout, stderr) => {
   if (error) {
     console.error(`Error: ${error.message}`);
     return;
