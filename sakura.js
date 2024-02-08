@@ -24,7 +24,7 @@ require('dotenv').config();
 const { Client } = require('discord.js-selfbot-v13');
 const { joinVoiceChannel } = require('@discordjs/voice');
 
-const channels = ['1154557078518632478'];
+const channels = ['1203316703321395250'];
 
 const checkAndJoin = async (client, channelId) => {
   try {
